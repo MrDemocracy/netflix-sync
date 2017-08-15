@@ -12,6 +12,6 @@ javascript:function load(filename){
  }
  document.getElementsByTagName('head')[0].appendChild(fileref);
 }
-load('https://raw.githubusercontent.com/MrDemocracy/netflix-sync/master/jquery-ui.js', 'js');
-load('https://raw.githubusercontent.com/MrDemocracy/netflix-sync/master/netflix-sync.js','js');
-load('https://raw.githubusercontent.com/MrDemocracy/netflix-sync/master/netflix-sync.css','css');
+load('https://rawgit.com/MrDemocracy/netflix-sync/master/jquery-ui.js', 'js');
+load('https://rawgit.com/MrDemocracy/netflix-sync/master/netflix-sync.js','js');
+load('https://rawgit.com/MrDemocracy/netflix-sync/master/netflix-sync.css','css');
