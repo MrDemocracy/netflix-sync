@@ -1,0 +1,70 @@
+﻿.retableRow.item-was-synced {
+	opacity: .3;
+}
+.retableRow.new-recorded {
+	background: lightgreen;
+}
+.retableRow.is-duplicate {
+	background: lightsalmon;
+}
+
+.open-link:hover {
+    text-decoration: none;
+}
+
+.trakt-dialog {
+    position: fixed;
+    top: 70px;
+    font-size: .9em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: #f3f3f3;
+    margin: 1em;
+    padding: 1em;
+    width: calc(90% - 1024px);
+	z-index: 100;
+    min-width: 525px;
+    max-height: calc(100vh - 70px - 2em);
+    box-sizing: border-box;
+}
+.trakt-dialog p {
+	margin-top: 0;
+}
+.trakt-dialog .nf-spinner {
+	float: right;
+	display: inline-block;
+}
+
+.trakt-dialog h1 {
+    border-bottom: 1px solid #ccc;
+    margin-left: -.5em;
+    margin-right: -.5em;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+.trakt-dialog hr {
+	border: none;
+	border-bottom: 1px solid #ccc;
+	margin-left: -1em;
+	margin-right: -1em;
+}
+
+.trakt-dialog  ul.list {
+    max-height: 15vh;
+    overflow: scroll;
+    padding-left: 1em;
+    border-top: #ccc double 1px;
+    border-bottom: #ccc double 1px;
+    background: #eee;
+}
+.hidden {
+	display: none;
+}
+.responsive-account-container {
+    margin: 0 1em 0 auto;
+}
+
+.trakt-missing-trakt p,
+.trakt-missing-netflix p {
+	color: #ccc;
+}
