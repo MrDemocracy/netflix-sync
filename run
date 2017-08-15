@@ -1,0 +1,17 @@
+javascript:function load(filename){
+ if(filename.endsWith('.js')){
+  var fileref=document.createElement('script');
+  fileref.setAttribute('type','text/javascript');
+  fileref.setAttribute('src',filename);
+ }
+ else if (filename.endsWith('.css')){
+  var fileref=document.createElement('link');
+  fileref.setAttribute('rel','stylesheet');
+  fileref.setAttribute('type','text/css');
+  fileref.setAttribute('href',filename);
+ }
+ document.getElementsByTagName('head')[0].appendChild(fileref);
+}
+load('https://raw.githubusercontent.com/MrDemocracy/netflix-sync/master/jquery-ui.js', 'js');
+load('https://raw.githubusercontent.com/MrDemocracy/netflix-sync/master/netflix-sync.js','js');
+load('https://raw.githubusercontent.com/MrDemocracy/netflix-sync/master/netflix-sync.css','css');
